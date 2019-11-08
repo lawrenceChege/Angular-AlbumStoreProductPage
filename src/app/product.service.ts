@@ -12,7 +12,8 @@ import { AlbumStorePage } from '../../e2e/app.po';
 @Injectable()
 export class ProductService {
   
-  private _albumUrl = '../assets/album.json'
+  private _albumUrl = '../assets/album.json';
+  private _productUrl = '../assets/products.json'
 
   constructor(private _http: Http) { }
 
